@@ -7,3 +7,5 @@ zeroGradient on the top and bottom of the flow entrance region.
 constrant velocity on left side of the flow entrance region.
 zeroGradient on top of the flat plate region and the right hand side.
 noSlip condition on the bottom of flat plate region.
+
+for the furture, turbulence modeeling can be included (can be do it in an another respository)..
