@@ -1,0 +1,40 @@
+!/bin/sh
+cd "${0%/*}" || exit                                # Run from this directory
+. ${WM_PROJECT_DIR:?}/bin/tools/CleanFunctions      # Tutorial clean functions
+#------------------------------------------------------------------------------
+
+cleanCase
+
+#rm -rf constant/baffle3DRegion
+#rm -rf constant/triSurface
+
+#------------------------------------------------------------------------------
+~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       "./Allclean" 11L, 399C
+
+
+#------------------------------------------------------------------------------
+
+#This was the original all clean script for icoFoam cases
+
+#keepCases="
+#cavity
+#cavityGrade
+#cavityClipped
+#"
+
+#loseCases="
+#cavityFine
+#cavityHighRe
+#"
+
+#for caseName in $keepCases
+#do
+#    ( cd "$caseName" && foamCleanTutorials )
+#done
+
+#for caseName in $loseCases
+#do
+#    removeCase "$caseName"
+#done
+
+#------------------------------------------------------------------------------
